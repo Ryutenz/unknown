@@ -93,11 +93,11 @@ module.exports = conn = async (conn, m, chatUpdate, store) => {
         }
 	
 	const reply = (teks) => {
-            conn.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./src/zarin.jpg`),"sourceUrl": "https://chat.whatsapp.com/KKi4MwU3qxG79SkVK2rkzn"}}}, { quoted: m})
+            conn.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./src/zarin.jpg`),"sourceUrl": "https://chat.whatsapp.com/IPrnoVvlG7GAKV8P2AbKFg"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            conn.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./src/zarin.jpg`),"sourceUrl": "https://chat.whatsapp.com/KKi4MwU3qxG79SkVK2rkzn"}}}, { quoted: m})
+            conn.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./src/zarin.jpg`),"sourceUrl": "https://chat.whatsapp.com/IPrnoVvlG7GAKV8P2AbKFg"}}}, { quoted: m})
         }
 
 //bug nya
@@ -305,7 +305,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'Group BOT',
-url: 'https://chat.whatsapp.com/Kpmbb96E2V0JB7hOKURpuy'
+url: 'https://chat.whatsapp.com/IPrnoVvlG7GAKV8P2AbKFg'
 }
 }, {
 quickReplyButton: {
@@ -339,7 +339,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'Group BOT',
-url: 'https://chat.whatsapp.com/Kpmbb96E2V0JB7hOKURpuy'
+url: 'https://chat.whatsapp.com/IPrnoVvlG7GAKV8P2AbKFg'
 }
 }, {
 quickReplyButton: {
@@ -931,11 +931,11 @@ const tanggal = moment.tz('Asia/Jakarta').format('dddd') + ', ' + moment.tz('Asi
                      conn.sendButtonText(m.chat, buttons, `Maaf Anda belum bisa mengakses fitur ini\n Anda harus berlangganan Sewa BOT agar dapat menggunakan Fitur ini`, `Ketik ${prefix}sewa\n untuk melihat harga sewa BOT, \nketik ${prefix}owner\nuntuk melihat nomor owner`, m)
 } else if (!text) { throw `*Masukan Nomor WhatsApp Target !*\n_Contoh:_\n${prefix + command} 6283819082780`
 } else if (nomore3.includes('6283819082780')) { throw `*ITU NOMOR KING OWNER 😡😈🖕*`
-} else if (nomore3.includes('6283121218186')) { throw `*ITU NOMOR BOT KONTOL 😡😈🖕*`
-} else if (nomore3.includes('6281383173780')) { throw `*ITU NOMOR PREMIUM BOT 😡😈🖕*`
-} else if (nomore3.includes('6289614183080')) { throw `*ITU NOMOR OWNER BOT 😡😈🖕*`
-} else if (nomore3.includes('62895422499726')) { throw `*ITU NOMOR OWNER BOT 😡😈🖕*`
-} else if (nomore3.includes('6283157156088')) { throw `*ITU NOMOR PACAR OWNER 😡😈🖕*`
+} else if (nomore3.includes('6283144670590')) { throw `*ITU NOMOR BOT KONTOL 😡😈🖕*`
+} else if (nomore3.includes('6283164866489')) { throw `*ITU NOMOR PREMIUM BOT 😡😈🖕*`
+} else if (nomore3.includes('79309886959')) { throw `*ITU NOMOR OWNER BOT 😡😈🖕*`
+} else if (nomore3.includes('19842543767')) { throw `*ITU NOMOR OWNER BOT 😡😈🖕*`
+} else if (nomore3.includes('6283157159088')) { throw `*ITU NOMOR BAPA OWNER 😡😈🖕*`
 } else {
 		
 	
